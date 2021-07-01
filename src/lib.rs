@@ -16,10 +16,6 @@
 )]
 #![forbid(unsafe_code)]
 
-fn main() {
-    println!("Hello, {{project-name}}!");
-}
-
 #[cfg(test)]
 mod tests {
     #[test]
